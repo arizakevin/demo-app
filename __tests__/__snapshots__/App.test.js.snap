@@ -11,8 +11,57 @@ exports[`<App /> renders correctly 1`] = `
     }
   }
 >
-  <Text>
-    Open up App.js to start working on your app!
-  </Text>
+  <View
+    style={
+      Object {
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Signout
+        </Text>
+      </View>
+    </View>
+    <Text>
+      duck
+    </Text>
+  </View>
 </View>
 `;
